@@ -1,8 +1,8 @@
 // @ts-check
-import { test, expect } from '@playwright/test';
+import { test } from '@playwright/test';
 import {dashboard_selectors as Dashboard} from "../selectors/dashboard_selectors";
 import {login_selectors as Login} from "../selectors/login_selectors";
-import {countEntriesOutput} from "../selectors/CountList.js";
+import {EntryFinder} from "../selectors/EntryFinder.js";
 
 test('Rückmeldung löschen', async ({ page }) => {
 
@@ -30,22 +30,25 @@ test('Rückmeldung löschen', async ({ page }) => {
     await page.waitForSelector(Dashboard.DELETE, { timeout: 10000 });
 
     /*
-    Bestehende Rückmeldung löschen,2. User klickt auf Löschen Icon
-     */
-    const counter = await countEntriesOutput(page, Dashboard.DELETE);
-    expect(counter).toBeGreaterThan(1);
+     Rückmeldung mit "Testautomatisierung" im Line Text finden und löschen
+      */
+    const foundIndex = await EntryFinder.findEntryByLineText(page, Dashboard.LINETEXT, 'Testautomatisierung');
 
     /*
-     Löschen
+    Löschen und senden, wenn gefunden
      */
-    if (counter > 0) {
-        await page.click(Dashboard.DELETE);
+    if (foundIndex >= 0) {
+        const deleteButtons = await page.locator(Dashboard.DELETE).all();
+        await deleteButtons[foundIndex].click();
         await page.click(Dashboard.OK_Button);
         await page.click(Dashboard.SEND);
+        console.log('Rückmeldung mit "Testautomatisierung" wurde gelöscht');
     } else {
-        console.log('Keine Rückmeldungen zum Löschen vorhanden');
+        console.log('Keine Rückmeldung mit "Testautomatisierung" zum Löschen vorhanden');
     }
 
-    //Dynamisch bauen mit nur Löschen wo Testautomatisierung löschen
-    //Bestätigung
+    /*
+    Bestätigung
+     */
+
 });

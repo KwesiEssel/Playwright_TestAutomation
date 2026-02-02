@@ -23,8 +23,6 @@ test('Rückmeldung erstellen und senden', async ({ page }) => {
      */
     await page.waitForLoadState('networkidle');
 
-    //await page.pause();
-
     /*
     Rückmeldung erstellen, 1. "Kontierungsobjekt" auswählen
      */
@@ -49,13 +47,11 @@ test('Rückmeldung erstellen und senden', async ({ page }) => {
     await expect(listbox1).toBeVisible();
     await expect(listbox1).toHaveText(/REGULAR/i);
 
-
     /*
      Line text schreiben
      */
     await page.click(Dashboard.LINETEXT);
     await page.keyboard.type('Testautomatisierung');
-
 
     /*
     Zeiten tragen
@@ -68,19 +64,8 @@ test('Rückmeldung erstellen und senden', async ({ page }) => {
      */
     await page.click(Dashboard.SEND);
 
-    //Bestätigung
-
-
-
-    // 2. "Vorgang" Default-Wert ausgewählt? -> ja, weiter zu Punkt 4.
-    // 3. "Vorgang" Default-Wert ausgewählt? -> nein, Vorgang auswählen
-    // 4. "Tätigkeitsstufe" Default-Wert ausgewählt? -> ja, weiter zu Punkt 6.
-    // 5. "Tätigkeitsstufe" Default-Wert ausgewählt? -> nein, Tätigkeitsstufe auswählen
-    // 4. "Tätigkeitsstufe" Default-Wert ausgewählt? -> ja, weiter zu Punkt 6.
-    // 5. "Tätigkeitskomponente" Default-Wert ausgewählt? -> nein, Tätigkeitskomponente auswählen
-
-
-    //Senden
-    // 6. Zeilentext eingeben7. An einem Wochentag eine Rückmeldezeit eingeben8. Auf „Senden“ klicken.
+    /*
+    Bestätigung
+     */
 
 });

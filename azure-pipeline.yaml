@@ -54,8 +54,8 @@ steps:
       npx playwright test
     continueOnError: true
     env:
-      DATABASE_PASSWORD: $(DATABASE_PASSWORD)
-      DATABASE_USER: $(DATABASE_USER)
+      BASE_URL: $(BASE_URL)
+      TEST_USER: $(TEST_USER)
       CI: true
     displayName: 'Run Playwright tests'
 
