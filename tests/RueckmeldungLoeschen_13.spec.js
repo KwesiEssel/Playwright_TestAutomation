@@ -12,10 +12,10 @@ test('Rückmeldung löschen', async ({ page }) => {
     await page.goto('https://app-dev-taap.azurewebsites.net/#/login', { waitUntil: 'domcontentloaded' });
     await page.waitForLoadState('networkidle');
     await page.click(Login.BENUTZERNAME);
-    await page.keyboard.type('65700285');
+    await page.keyboard.type(Login.LOGIN_INPUT);
 
     await page.click(Login.PASSWORD);
-    await page.keyboard.type('Taap!1');
+    await page.keyboard.type(Login.PASSWORD_INPUT);
 
     await page.locator(Login.ANMELDEN_BUTTON).nth(1).click();
 
