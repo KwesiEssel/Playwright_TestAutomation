@@ -17,3 +17,4 @@ export async function countEntriesOutput(page, selector){
         return"Es gibt keine Rückmeldungen"
     }
 }
+

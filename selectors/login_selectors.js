@@ -5,7 +5,7 @@ export class login_selectors {
 
     /*
     Login Daten
-     */
+    */
     static LOGIN_INPUT = '65700285';
     static PASSWORD_INPUT = 'nSC@Lw$8x5';
 }

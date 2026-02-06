@@ -8,7 +8,7 @@ test('Rückmeldung löschen', async ({ page }) => {
 
     /*
     Login
-     */
+    */
     await page.goto('https://app-dev-taap.azurewebsites.net/#/login', { waitUntil: 'domcontentloaded' });
     await page.waitForLoadState('networkidle');
     await page.click(Login.BENUTZERNAME);
@@ -21,22 +21,22 @@ test('Rückmeldung löschen', async ({ page }) => {
 
     /*
     Auf Dashboard navigieren und warten
-     */
+    */
     await page.waitForURL('https://app-dev-taap.azurewebsites.net/#/tenants/baut/confirmation/multi', { timeout: 10000 }); // URL anpassen
 
     /*
     Warten auf ein eindeutiges Dashboard-Element:
-     */
+    */
     await page.waitForSelector(Dashboard.DELETE, { timeout: 10000 });
 
     /*
-     Rückmeldung mit "Testautomatisierung" im Line Text finden und löschen
-      */
+    Rückmeldung mit "Testautomatisierung" im Line Text finden und löschen
+    */
     const foundIndex = await EntryFinder.findEntryByLineText(page, Dashboard.LINETEXT, 'Testautomatisierung');
 
     /*
     Löschen und senden, wenn gefunden
-     */
+    */
     if (foundIndex >= 0) {
         const deleteButtons = await page.locator(Dashboard.DELETE).all();
         await deleteButtons[foundIndex].click();
@@ -49,6 +49,6 @@ test('Rückmeldung löschen', async ({ page }) => {
 
     /*
     Bestätigung
-     */
+    */
 
 });
