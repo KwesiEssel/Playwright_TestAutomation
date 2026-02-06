@@ -21,10 +21,13 @@ export class dashboard_selectors {
     static PASSWORTAENDERN = '#/app/change-password';
     static BENUTZERUEBERSICHT = '#/app/user';
 
-    static ACC_OBJECT = '.accounting-object-item';
+    static ACC_OBJECT = 'div.el-select__selected-item.el-select__placeholder';
+    static REGULAR = '.el-select__wrapper.is-filterable';
     static SELECTIVE_ACC_OBJECT = 'text= "000"';
     static TASK_COMPONENT = '.task-component-item';
     static LINETEXT = '.text-proposal-item';
+    static LINETEXT2 = 'input[placeholder="Enter text..."]';
     static DATEITEM = '.date-item';
     static SEND = 'li.el-menu-item:has-text("SEND")';
+    static DROPDOWN = 'li.el-select-dropdown__item.accounting-object-option-item-container';
 }

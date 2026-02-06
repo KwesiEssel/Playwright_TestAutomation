@@ -59,6 +59,22 @@ steps:
       CI: true
     displayName: 'Run Playwright tests'
 
+  # Login
+  - script: npx playwright test tests/Login_15.spec.js
+    displayName: "Test 1 - Login"
+
+
+  # Erstellen & Senden (nur wenn Login grün)
+  - script: npx playwright test tests/RueckmeldungErstellenUndSenden_4.spec.js
+    displayName: "Test 2 - Erstellen und Senden"
+    condition: succeeded()
+
+
+  # Löschen (nur wenn Test 2 grün)
+  - script: npx playwright test tests/RueckmeldungLoeschen_13.spec.js
+    displayName: "Test 3 - Löschen"
+    condition: succeeded()
+
   # HTML Report publizieren als Artifact
   - task: PublishPipelineArtifact@1
     inputs:
