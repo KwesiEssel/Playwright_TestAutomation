@@ -3,12 +3,12 @@ import {test} from '@playwright/test';
 import {dashboard_selectors as Dashboard} from "../selectors/dashboard_selectors";
 import {login_selectors as Login} from "../selectors/login_selectors";
 
-test('Login and Logout | Tenant BAUT', async ({ page }) => {
+test('Login and Logout | EXAMPLE ', async ({ page }) => {
 
     /*
     Login
     */
-    await page.goto('https://app-dev-taap.azurewebsites.net/#/login', { waitUntil: 'domcontentloaded' });
+    await page.goto('https://example.com/login', { waitUntil: 'domcontentloaded' });
     await page.waitForLoadState('networkidle');
 
     await page.click(Login.BENUTZERNAME);
