@@ -12,4 +12,4 @@ QA Engineer | Test Automation Engineer | Mobile Testing
 
 ## PROJECT SCOPE
 
-Diese Testautomatisierung wurde erstellt für die interne Nutzung und bewusst die Werte verändert.
+Diese Testautomatisierung wurde für interne Zwecke entwickelt. Alle verwendeten Daten wurden bewusst anonymisiert bzw. verändert und entsprechen nicht den produktiven Werten.
