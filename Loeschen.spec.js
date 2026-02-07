@@ -9,7 +9,7 @@ test('Rückmeldung löschen', async ({ page }) => {
     /*
     Login
     */
-    await page.goto('https://app-dev-taap.azurewebsites.net/#/login', { waitUntil: 'domcontentloaded' });
+    await page.goto('https://example.com/login', { waitUntil: 'domcontentloaded' });
     await page.waitForLoadState('networkidle');
     await page.click(Login.BENUTZERNAME);
     await page.keyboard.type(Login.LOGIN_INPUT);
@@ -22,7 +22,7 @@ test('Rückmeldung löschen', async ({ page }) => {
     /*
     Auf Dashboard navigieren und warten
     */
-    await page.waitForURL('https://app-dev-taap.azurewebsites.net/#/tenants/baut/confirmation/multi', { timeout: 10000 }); // URL anpassen
+    await page.waitForURL('https://example.com', { timeout: 10000 }); // URL anpassen
 
     /*
     Warten auf ein eindeutiges Dashboard-Element:
