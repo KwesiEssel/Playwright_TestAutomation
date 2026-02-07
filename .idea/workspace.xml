@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18c7ecd9-ab8b-4ba0-8763-ad2697fc460a" name="Changes" comment="Update, sauber machen" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="36svOLUYJQUWMzMdJh2HOFQlKSv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/dadzi/IdeaProjects/TimeRec.Automation.Node/selectors",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.1.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dadzi\IdeaProjects\TimeRec.Automation.Node\selectors" />
+      <recent name="C:\Users\dadzi\IdeaProjects\TimeRec.Automation.Node\tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dadzi\IdeaProjects\TimeRec.Automation.Node\backup" />
+      <recent name="C:\Users\dadzi\IdeaProjects\TimeRec.Automation.Node" />
+      <recent name="C:\Users\dadzi\IdeaProjects\TimeRec.Automation.Node\test-results" />
+      <recent name="C:\Users\dadzi\IdeaProjects\TimeRec.Automation.Node\selectors" />
+      <recent name="C:\Users\dadzi\IdeaProjects\TimeRec.Automation.Node\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.RueckmeldungErstellenUndSenden_4.spec.js">
+    <configuration name="ChangeMonth_2.spec.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/backup/ChangeMonth_2.spec.js" working-dir="$PROJECT_DIR$/tests">
+      <method v="2" />
+    </configuration>
+    <configuration name="Login_15.spec.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/tests/Login_15.spec.js" working-dir="$PROJECT_DIR$/tests">
+      <method v="2" />
+    </configuration>
+    <configuration name="RueckmeldungErstellenUndSenden_4.spec.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/tests/RueckmeldungErstellenUndSenden_4.spec.js" working-dir="$PROJECT_DIR$/tests">
+      <method v="2" />
+    </configuration>
+    <configuration name="example.spec.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test-results/example.spec.js" working-dir="$PROJECT_DIR$/tests">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.RueckmeldungErstellenUndSenden_4.spec.js" />
+        <item itemvalue="Node.js.ChangeMonth_2.spec.js" />
+        <item itemvalue="Node.js.Login_15.spec.js" />
+        <item itemvalue="Node.js.example.spec.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18c7ecd9-ab8b-4ba0-8763-ad2697fc460a" name="Changes" comment="" />
+      <created>1765808059771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765808059771</updated>
+      <workItem from="1765808062706" duration="984000" />
+      <workItem from="1766102146419" duration="1783000" />
+      <workItem from="1766131972741" duration="3363000" />
+      <workItem from="1767016994446" duration="11218000" />
+      <workItem from="1767132978138" duration="12000" />
+      <workItem from="1767777742210" duration="1984000" />
+      <workItem from="1768126034292" duration="29000" />
+      <workItem from="1768294118222" duration="7028000" />
+      <workItem from="1768318407302" duration="12344000" />
+      <workItem from="1768385150248" duration="2102000" />
+      <workItem from="1768690065256" duration="885000" />
+      <workItem from="1768694327028" duration="199000" />
+      <workItem from="1768764904192" duration="12486000" />
+      <workItem from="1768817702333" duration="603000" />
+      <workItem from="1768849109850" duration="15000" />
+      <workItem from="1768991150393" duration="2620000" />
+      <workItem from="1769010267977" duration="7480000" />
+      <workItem from="1769076194695" duration="3400000" />
+      <workItem from="1769102028832" duration="54000" />
+      <workItem from="1769499441277" duration="5045000" />
+      <workItem from="1769812435019" duration="3358000" />
+      <workItem from="1769949826121" duration="7000" />
+      <workItem from="1770017456818" duration="2862000" />
+      <workItem from="1770270048180" duration="3393000" />
+      <workItem from="1770281740178" duration="4425000" />
+      <workItem from="1770357077013" duration="10335000" />
+      <workItem from="1770489833370" duration="1259000" />
+    </task>
+    <task id="LOCAL-00001" summary="Testautomatisierung prio 1 (drei Testfälle, prio 3 (ein testfall), yaml datei eingebaut und config geändert für die pipeline">
+      <option name="closed" value="true" />
+      <created>1770018254849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770018254849</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Verbesserung">
+      <option name="closed" value="true" />
+      <created>1770020826942</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770020826942</updated>
+    </task>
+    <task id="LOCAL-00003" summary="config anpassen">
+      <option name="closed" value="true" />
+      <created>1770271198167</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770271198167</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Anpassung">
+      <option name="closed" value="true" />
+      <created>1770272245189</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770272245189</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Login Daten">
+      <option name="closed" value="true" />
+      <created>1770282154615</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770282154616</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <option name="closed" value="true" />
+      <created>1770364438087</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770364438087</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update, sauber machen">
+      <option name="closed" value="true" />
+      <created>1770366027397</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770366027397</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Testautomatisierung prio 1 (drei Testfälle, prio 3 (ein testfall), yaml datei eingebaut und config geändert für die pipeline" />
+    <MESSAGE value="Verbesserung" />
+    <MESSAGE value="config anpassen" />
+    <MESSAGE value="Anpassung" />
+    <MESSAGE value="Login Daten" />
+    <MESSAGE value="update" />
+    <MESSAGE value="Update, sauber machen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update, sauber machen" />
+  </component>
+</project>
