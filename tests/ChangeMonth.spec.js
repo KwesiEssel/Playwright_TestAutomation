@@ -3,7 +3,7 @@ import { dashboard_selectors as Dashboard } from "../selectors/dashboard_selecto
 import { login_selectors as Login } from "../selectors/login_selectors.js";
 import { readMonthIndex } from "../selectors/getMonthIndex.js";
 
-test('Change month | Tenant BAUT', async ({ page }) => {
+test('Change month', async ({ page }) => {
     await page.goto('https://example.com/#/login', { waitUntil: 'domcontentloaded' });
     await page.waitForLoadState('networkidle');
     /*
